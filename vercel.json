@@ -11,6 +11,11 @@
     "public": true,
     "buildCommand": "vite build",
     "outputDirectory": "public",
+    "build": {
+        "env": {
+        "LD_LIBRARY_PATH": "/usr/lib:/usr/local/lib"
+        }
+    },
     "env": {
         "APP_ENV": "production",
         "APP_DEBUG": "false",
